@@ -1,0 +1,16 @@
+create the object file:
+nasm -f elf <myfile>.asm
+
+link it up:
+ld -m elf_i386 -s -o <executablename> <objectfile>.o
+
+now execute the stuff:
+./<executablename>
+
+(-.-) good day.
+
+
+
+ ******* the file writing thing is buggy please check....
+
+
